@@ -1,0 +1,27 @@
+{
+  "name": "alomundo_java_docker",
+  "version": "1.0.0",
+  "description": "Projeto de teste em Java 8, empacotado com Maven e containerizado com Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maicoopereira/alomundo_java_docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maicoopereira/alomundo_java_docker/issues"
+  },
+  "homepage": "https://github.com/maicoopereira/alomundo_java_docker#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "husky": "^9.1.7"
+  }
+}
